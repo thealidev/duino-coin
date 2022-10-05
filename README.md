@@ -93,7 +93,7 @@ If not, the response will be `OK,User is registered`.<br>
 
 #### DUCO-S1 Mining
 
-After sending `JOB,username` (or `JOBXX,username` for XXHASH) the server will return job for mining using DUCO-S1.<br>
+After sending `JOB,username` the server will return job for mining using DUCO-S1.<br>
 You can ask for a specific **start** difficulty: `JOB,username,diff` where diff is one of the below:
 * `LOW` - used for mining on Web Miner, RPis, PC
 * `MEDIUM` - used for mining on PC
